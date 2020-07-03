@@ -22,7 +22,7 @@
   margin: auto; }
 
 .container-dark {
-  background: url("img/websiteheader.png") no-repeat center center/cover;
+  background: url("../img/websiteheader.png") no-repeat center center/cover;
   color: white; }
 
 .container-dark-none {
@@ -655,7 +655,7 @@ header {
 
 .basement {
   max-width: 100%;
-  background: url(img/websiteheader.png) no-repeat center center/cover;
+  background: url("../img/websiteheader.png") no-repeat center center/cover;
   color: white; }
 
 .basement-row {
