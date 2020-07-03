@@ -1,0 +1,37 @@
+// Variables
+
+$website-width: 1280px;
+$website-max-width: 100%;
+$website-alternate-width: 900px;
+$primary-color: #0a2472;
+$secondary-color: #09e1c0;
+$light-color: white;
+$dark-color: #0a2472;
+$medium-color: #f9f9ff;
+
+// Responsive Width
+// Desktop
+$min-width: 769px;
+
+// Typography
+$primary-font: 'Space Mono', monospace;
+$secondary-font: 'Open Sans', sans-serif;
+
+// Font Sizes - Mobile & Desktop
+
+$fs-h1: 3rem;
+$fsd-h1: 3.75rem;
+$fs-h2: 2.25rem;
+$fsd-h2: 3rem;
+$fs-h3: 1.25rem;
+$fsd-h3: 1.5rem;
+$fs-body: 1rem;
+$fsd-body: 1.095rem;
+// Both Fonts
+$f-bold: 700;
+$f-regular: 400;
+// Open Sans Only
+$f-light: 300;
+
+// Box Shadow
+$img-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);

@@ -1,0 +1,14 @@
+{
+  "name": "mydevportfolio",
+  "version": "1.0.0",
+  "description": "Brendin Venter | Dev Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Brendin Venter",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.14.5"
+  }
+}

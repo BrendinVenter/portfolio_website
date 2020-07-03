@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brendin Venter | Aspiring Software Developer</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="/dist/css/main.css" />
+
+    <!--  AOS Animation Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Jquery for Nav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="py-1" id="navbar">
+      <div>
+        <a id="site-logo" href="#">{brendinVenter}</a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">My Skills</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item">
+            <a href="mailto:brendincolinventer@gmail.com" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Hero -->
+    <section class="container-max container-dark">
+      <div class="header-content">
+        <h2>
+          Hi, I'm Brendin 👋
+        </h2>
+
+        <p class="lead">
+          I am
+          <span
+            class="txt-type"
+            data-wait="1800"
+            data-words='["an aspiring software developer", "a freelance digital marketer", "a former small business owner"]'
+          ></span>
+        </p>
+        <div class="button-grid">
+          <a href="#portfolio" class="btn-light">Portfolio</a>
+          <a
+            href="/dist/img/Brendin Venter Resume - Aspiring Software Developer.pdf"
+            class="btn-light"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="social-list-hero">
+          <ul class="social-list">
+            <li class="social-list-item">
+              <a href="https://codepen.io/brendinventer" class="social-list-link" target="_blank">
+                <i class="fab fa-codepen social-list-icon-hero"></i>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                href="https://www.instagram.com/brendinventer/"
+                class="social-list-link"
+                target="_blank"
+              >
+                <i class="fab fa-instagram social-list-icon-hero"></i>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="https://github.com/BrendinVenter" class="social-list-link" target="_blank">
+                <i class="fab fa-github social-list-icon-hero"></i>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                href="https://www.linkedin.com/in/brendin-venter-332480136/"
+                class="social-list-link"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin social-list-icon-hero"></i>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="https://dev.to/brendinv" class="social-list-link" target="_blank">
+                <i class="fab fa-dev social-list-icon-hero"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills & Expertise -->
+
+    <section class="container-alt my-3 py-2 px-2" data-aos="fade-up" data-aos-duration="1000">
+      <div class="my-skills-section">
+        <div class="my-skills-header" id="skills">
+          <h2 class="section-title section-title-skills">Current Skills</h2>
+
+          <div class="bottom-line"></div>
+        </div>
+        <!-- Skill Boxes Section -->
+        <div class="grid-row">
+          <!-- Profile Photo
+           -->
+          <div class="skills-profile-photo">
+            <img src="/dist/img/brendinventer300.png" alt="brendin venter profile picture" />
+          </div>
+          <!-- Development Skills -->
+          <div class="grid-row-skills">
+            <div class="skills-intro">
+              <h3>My Goal</h3>
+              <p>
+                To become a software developer to help build online experiences, tools and software
+                that can have a positive impact on people and make a real difference.
+              </p>
+            </div>
+            <!-- Development -->
+            <div class="skill-box">
+              <!-- Skill HTML Line -->
+              <div class="skill-content-html">
+                <div class="skill-icon icon-html">
+                  <i class="fab fa-html5 fa-2x"></i>
+                </div>
+
+                <div class="pbar-html">
+                  <div class="w3-light-grey">
+                    <div class="pbar-html-inlet" per="Competent"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Skill CSS Line -->
+              <div class="skill-content-css">
+                <div class="skill-icon icon-css">
+                  <i class="fab fa-css3-alt fa-2x"></i>
+                </div>
+
+                <div class="pbar-css">
+                  <div class="w3-light-grey">
+                    <div class="pbar-css-inlet" per="Competent"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Skill Javascript CSS -->
+              <div class="skill-content-js">
+                <div class="skill-icon icon-js">
+                  <i class="fab fa-js fa-2x"></i>
+                </div>
+
+                <div class="pbar-js">
+                  <div class="w3-light-grey">
+                    <div class="pbar-js-inlet" per="New"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Development Box Ends -->
+          </div>
+        </div>
+
+        <!-- Libraries & Frameworks Logo Section -->
+        <div class="framework-bar" data-aos="fade-in" data-aos-duration="1000">
+          <h3 class="framework-title">Tech Tools I've Used</h3>
+          <!-- Framework Logo Row -->
+          <div class="framework-row">
+            <div class="framework-item">
+              <div class="framework-logo">
+                <a href="https://sass-lang.com/" target="_blank"
+                  ><i class="fab fa-sass fa-3x"></i
+                ></a>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-logo">
+                <a href="https://getbootstrap.com/" target="_blank"
+                  ><i class="fab fa-bootstrap fa-3x"></i
+                ></a>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-logo">
+                <a href="https://git-scm.com/" target="_blank"><i class="fab fa-git fa-3x"></i></a>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-logo">
+                <a href="https://github.com/" target="_blank"
+                  ><i class="fab fa-github fa-3x"></i
+                ></a>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-logo">
+                <a href="https://wordpress.org/" target="_blank"
+                  ><i class="fab fa-wordpress fa-3x"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section
+      class="container container-dark my-3 py-4"
+      id="about"
+      data-aos="fade-up"
+      data-aos-duration="1250"
+    >
+      <h2 class="section-title section-title-about">Who Am I</h2>
+      <div class="bottom-line"></div>
+
+      <div class="about-me-body">
+        <div>
+          <p>
+            I’m a former small online course business owner and digital marketer, who at 29 years
+            old, am currently pursuing a new career in software development.
+          </p>
+          <p>
+            I'm someone that is independent, hard working and like to believe I'm pretty good at
+            solving problems whether that is business or life related.
+          </p>
+
+          <p>
+            And I love technology! Diving deep into learning and understanding how things work just
+            so I can tweak and improve on it is a lot of fun!
+          </p>
+        </div>
+        <div>
+          <img src="img/brendin-roman.jpg" alt="brendin and his cat roman" class="about-me-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- My Portfolio -->
+
+    <section class="container my-4 py-4 px-2" data-aos="fade-up" data-aos-duration="1000">
+      <div class="portfolio-section" id="portfolio">
+        <h2 class="section-title section-title-projects">My Portfolio</h2>
+        <div class="bottom-line"></div>
+
+        <!-- Portfolio Grid - Add Cards or Something -->
+
+        <div class="portfolio">
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="/dist/personal-website.html">
+              <img
+                src="/dist/img/portfolio-personal-website.png"
+                class="portfolio-img"
+                alt="portfolio img"
+              />
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="#portfolio">
+              <img
+                src="/dist/img/portfolio-personal-website-coming-soon.png"
+                class="portfolio-img"
+                alt="portfolio img"
+              />
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="#portfolio">
+              <img
+                src="/dist/img/portfolio-personal-website-coming-soon.png"
+                class="portfolio-img"
+                alt="portfolio img"
+              />
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="#portfolio">
+              <img
+                src="/dist/img/portfolio-personal-website-coming-soon.png"
+                class="portfolio-img"
+                alt="portfolio img"
+              />
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="#portfolio">
+              <img
+                src="/dist/img/portfolio-personal-website-coming-soon.png"
+                class="portfolio-img"
+                alt="portfolio img"
+              />
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="#portfolio">
+              <img
+                src="/dist/img/portfolio-personal-website-coming-soon.png"
+                class="portfolio-img"
+                alt="portfolio img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Basement Quote Section -->
+    <section class="basement my-1 px-2" data-aos="fade-in" data-aos-duration="1500">
+      <div class="basement-row">
+        <div class="basement-item">
+          <h2>Have a <span>dream.</span></h2>
+        </div>
+        <div class="basement-item">
+          <h2>Enjoy the <span>journey.</span></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Foooter -->
+    <footer class="footer">
+      <a href="mailto:brendincolinventer@gmail.com" class="footer-link"
+        >brendincolinventer@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a href="https://codepen.io/brendinventer" class="social-list-link" target="_blank">
+            <i class="fab fa-codepen social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://www.instagram.com/brendinventer/"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-instagram social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a href="https://github.com/BrendinVenter" class="social-list-link" target="_blank">
+            <i class="fab fa-github social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://www.linkedin.com/in/brendin-venter-332480136/"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a href="https://dev.to/brendinv" class="social-list-link" target="_blank">
+            <i class="fab fa-dev social-list-icon"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="copyright">
+        <p>Made by Me</p>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/dist/js/index.js"></script>
+    <script src="/dist/js/typewriter.js"></script>
+  </body>
+</html>
