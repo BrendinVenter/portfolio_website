@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brendin Venter | Aspiring Software Developer</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!--  AOS Animation Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16" />
+
+    <!-- Jquery for Nav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="py-1" id="navbar">
+      <div>
+        <a id="site-logo" href="index.html#home">brendinVenter{}</a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#skills" class="nav-link">My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:brendincolinventer@gmail.com" class="nav-link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="section my-1 py-1" id="portfolio-header">
+      <div class="section-intro">
+        <h1 class="section-title section-title-intro">
+          Simple<strong>Task List App</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-intro">
+          my first JavaScript DOM Project
+        </p>
+        <!-- <img
+          src="/dist/img/portfolio-to-do-list.png"
+          alt="a picture of brendin venter in cartoon format"
+          class="intro-img"
+        /> -->
+      </div>
+    </section>
+
+    <section class="meta-section">
+      <ul class="meta-list">
+        <li class="meta-item">29 July 2020</li>
+        <li class="meta-item">
+          <a
+            href="https://github.com/BrendinVenter/simpleToDoApp"
+            target="_blank"
+            >View GitHub</a
+          >
+        </li>
+        <li class="meta-item">
+          <a href="https://kind-edison-98bff6.netlify.app/?" target="_blank"
+            >Live Version</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <article
+      class="container my-1 py-3"
+      data-aos="fade-in"
+      data-aos-duration="1000"
+    >
+      <div class="portfolio-item-individual">
+        <h3 class="portfolio-heading">About the Project</h3>
+        <p>
+          About a month ago I started learing JavaScript for the first time. I
+          was initially a little intimidated by it as knowing when to move on to
+          learning it can be quite difficult.
+        </p>
+        <p>
+          None the less after watching Kyle Simpsons Introduction to JavaScript
+          over on Front End Masters I decided get started as I know learning
+          JavaScript is like building the pyramids...by yourself...brick by
+          brick.
+        </p>
+        <p>
+          It was then that I enrolled in the Front End Career path at Scrimba
+          and bought Brad Traversy's JavaScript courses over on Udemy and got to
+          work.
+        </p>
+        <p>
+          Anyways I've just learnt about the DOM, which is awesome, and needed a
+          small project to practice on. So, like all new coders I see, doing a
+          task list style app is a fun place to start.
+        </p>
+        <p>
+          Currently and quite sadly, only the Monday task list works as I'm yet
+          to have enough knowledge on seperating the lists etc, adding data
+          attributes and being able to uniquely add them to local storage BUT I
+          am proud of my first little project for now and will for sure comeback
+          to it in the future.
+        </p>
+        <h3 class="portfolio-heading">My Goal</h3>
+        <p>
+          My goal was simple. Create ONE (someday multiple) task list that
+          works! This list needed to have:
+        </p>
+        <ul>
+          <li class="portfolio-list-item">
+            The ability to add, complete and remove tasks.
+          </li>
+          <li class="portfolio-list-item">
+            For these tasks to be saved to or removed from local storage.
+          </li>
+          <li class="portfolio-list-item">
+            And for the limit of tasks to be 10.
+          </li>
+        </ul>
+        <p>
+          <strong>Note: </strong> I also got carried away and added a theme
+          selector!? 😀
+        </p>
+        <h3 class="portfolio-heading">Features & Tech</h3>
+        <p>
+          It's not Todoist, Trello or anything fancy but I learnt a lot and used
+          what I already know about HTML, CSS and Bootstrap to create something
+          a little more apealing that your usual task list.
+        </p>
+
+        <p><strong>Features & Tech</strong></p>
+        <ul>
+          <li class="portfolio-list-item">HTML</li>
+          <li class="portfolio-list-item">CSS</li>
+          <li class="portfolio-list-item">BootStrap</li>
+          <li class="portfolio-list-item">
+            JavaScript DOM Manipulation
+          </li>
+          <li class="portfolio-list-item">
+            JavaScript Local Storage
+          </li>
+
+          <li class="portfolio-list-item">
+            Font Awesome
+          </li>
+          <li class="portfolio-list-item">
+            Google Fonts
+          </li>
+        </ul>
+        <h3 class="portfolio-heading">What I Learnt</h3>
+        <p>
+          Again, after spending time learning theory, actually trying to build
+          something similar from scratch took forever (14 hours) but I learnt so
+          much! I encountered A LOT of bugs initially, but by taking things line
+          by line and using the Developer Console effectively, I managed to get
+          it working!
+        </p>
+        <p>
+          I think one of the hardest things about first starting JavaScript is
+          how many different ways there is to accomplish a task and although my
+          way I'm sure is not optimal, it worked and I'm happy with how much I
+          learnt.
+        </p>
+
+        <h3 class="portfolio-heading">What I'd Improve</h3>
+        <p>
+          Aw, this is simple! Have all the lists works!! 😔 I'm sure it is
+          something basic I am overlooking but after a whole day of trying, I
+          decided to continue learning and building other small projects for
+          now.
+        </p>
+
+        <h3 class="portfolio-heading">Conclusion</h3>
+        <p>
+          <strong>This was a fun project!</strong> Writing code that actually
+          works and that makes a website interactive is a really cool feeling!
+        </p>
+        <p>
+          It's safe to say I'm pretty addicted to JavaScript and cannot wait to
+          learn more.
+        </p>
+        <p>
+          <a href="portfolio-tasklistapp.html#portfolio-header" id="return-top"
+            >return to top</a
+          >
+        </p>
+      </div>
+    </article>
+
+    <!-- Basement Quote Section -->
+    <section class="basement" data-aos="fade-in" data-aos-duration="1500">
+      <div class="basement-row">
+        <div class="basement-item">
+          <h2>Have a <span>dream.</span></h2>
+        </div>
+        <div class="basement-item">
+          <h2>Enjoy the <span>journey.</span></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Foooter -->
+    <footer class="footer">
+      <a href="mailto:brendincolinventer@gmail.com" class="footer-link"
+        >brendincolinventer@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            href="https://codepen.io/brendinventer"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-codepen social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://www.instagram.com/brendinventer/"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-instagram social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://github.com/BrendinVenter"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-github social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://www.linkedin.com/in/brendin-venter-332480136/"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin social-list-icon"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://dev.to/brendinv"
+            class="social-list-link"
+            target="_blank"
+          >
+            <i class="fab fa-dev social-list-icon"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="copyright">
+        <p>Made by Me</p>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/index.js"></script>
+    <script src="js/typewriter.js"></script>
+  </body>
+</html>
