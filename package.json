@@ -1,14 +1,33 @@
 {
   "name": "mydevportfolio",
   "version": "1.0.0",
-  "description": "Brendin Venter | Dev Portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive"
   },
-  "author": "Brendin Venter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrendinVenter/portfolio_website.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrendinVenter/portfolio_website/issues"
+  },
+  "homepage": "https://github.com/BrendinVenter/portfolio_website#readme",
   "dependencies": {
-    "node-sass": "^6.14.5"
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^2.0.5"
   }
 }
