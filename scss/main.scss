@@ -361,6 +361,10 @@ header {
   padding-bottom: 2em;
 }
 
+.skills-intro p {
+  width: 95%;
+}
+
 // Progress Bar & Icon - HTML
 .skill-content-html {
   margin: 5%;
@@ -692,6 +696,14 @@ header {
   overflow: hidden;
   box-shadow: $img-box-shadow;
   border-radius: 5px;
+  background-color: white;
+
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+
+  &:hover,
+  .portfolio-item:focus .portfolio-img {
+    transform: scale(1.01);
+  }
 }
 
 .portfolio-item:focus {
@@ -700,12 +712,43 @@ header {
 }
 
 .portfolio-img {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  width: 100%;
+  height: auto;
+}
 
-  &:hover,
-  .portfolio-item:focus .portfolio-img {
-    transform: scale(1.2);
+.card-body {
+  text-align: center;
+  padding: 1rem 1.5rem 0rem 1.5rem;
+  background-color: $light-color;
+}
+
+.card-title {
+  font-size: $fs-h3;
+  text-align: center;
+}
+
+@media (min-width: $min-width) {
+  .card-title {
+    font-size: $fsd-h3;
+    text-align: center;
   }
+}
+.card-text {
+  font-size: $fs-body;
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+@media (min-width: $min-width) {
+  .card-text {
+    font-size: $fsd-body;
+    text-align: center;
+  }
+}
+
+.btn-portfolio {
+  margin: 1rem auto;
 }
 
 //Basement Quote Section
@@ -780,6 +823,13 @@ header {
 .copyright {
   color: $primary-color;
   padding: 1em;
+}
+
+.copyright i {
+  color: $primary-color;
+  &:hover {
+    color: $secondary-color;
+  }
 }
 
 // Portfolio Page
@@ -869,7 +919,9 @@ header {
 
 .description {
   text-align: center;
-  margin-bottom: 3rem;
+
+  width: 80%;
+  margin: 0 auto 3rem auto;
 }
 
 .description a {

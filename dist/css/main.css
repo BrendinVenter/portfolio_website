@@ -35,7 +35,7 @@
     .max-viewport {
       height: 100vh; } }
 
-.btn-main, .btn-light, .btn-dark {
+.btn-main, .btn-light, .btn-dark, .btn-card {
   display: inline-block;
   padding: 0.8rem 2rem;
   margin: 1rem;
@@ -55,6 +55,13 @@
 .btn-dark {
   color: white;
   background-color: #0a2472; }
+
+.btn-card {
+  color: white;
+  background-color: #0a2472;
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -161,7 +168,7 @@ ul {
   h3 {
     font-size: 1.5rem; }
   body {
-    font-size: 1.095rem; } }
+    font-size: 1.05rem; } }
 
 header {
   display: flex;
@@ -369,6 +376,9 @@ header {
 
 .skills-intro {
   padding-bottom: 2em; }
+
+.skills-intro p {
+  width: 95%; }
 
 .skill-content-html {
   margin: 5%;
@@ -589,7 +599,7 @@ header {
 @media (min-width: 769px) {
   .framework-subtitle {
     font-family: "Space Mono", monospace;
-    font-size: 1.095rem;
+    font-size: 1.05rem;
     text-align: center; } }
 
 .about-me-body {
@@ -641,17 +651,48 @@ header {
 .portfolio-item {
   overflow: hidden;
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: white;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear; }
+  .portfolio-item:hover,
+  .portfolio-item .portfolio-item:focus .portfolio-img {
+    transform: scale(1.01); }
 
 .portfolio-item:focus {
   position: relative;
   z-index: 2; }
 
 .portfolio-img {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear; }
-  .portfolio-img:hover,
-  .portfolio-img .portfolio-item:focus .portfolio-img {
-    transform: scale(1.2); }
+  width: 100%;
+  height: auto; }
+
+.card-body {
+  text-align: center;
+  padding: 1rem 1.5rem 0rem 1.5rem;
+  background-color: white; }
+
+.card-title {
+  font-size: 1.25rem;
+  text-align: center; }
+
+@media (min-width: 769px) {
+  .card-title {
+    font-size: 1.5rem;
+    text-align: center; } }
+
+.card-text {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0; }
+
+@media (min-width: 769px) {
+  .card-text {
+    font-size: 1.05rem;
+    text-align: center; } }
+
+.btn-portfolio {
+  margin: 1rem auto; }
 
 .basement {
   max-width: 100%;
@@ -708,6 +749,11 @@ header {
 .copyright {
   color: #0a2472;
   padding: 1em; }
+
+.copyright i {
+  color: #0a2472; }
+  .copyright i:hover {
+    color: #09e1c0; }
 
 .section-intro {
   padding: 0 0 2em 0;
@@ -768,7 +814,8 @@ header {
 ****************************************/
 .description {
   text-align: center;
-  margin-bottom: 3rem; }
+  width: 80%;
+  margin: 0 auto 3rem auto; }
 
 .description a {
   background-image: linear-gradient(180deg, transparent 90%, rgba(9, 225, 192, 0.4) 0); }
